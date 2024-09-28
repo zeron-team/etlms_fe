@@ -1,3 +1,45 @@
+# ETLMS Frontend
+
+## Estructura
+```text
+src/
+│
+├── components/                  # Componentes reutilizables
+│   ├── DataSourceForm.js        # Formulario para gestionar fuentes de datos
+│   ├── ETLProcessDesigner.js    # Diseñador visual para procesos ETL
+│   └── TransformationForm.js    # Formulario para gestionar reglas de transformación
+│
+├── pages/                       # Páginas principales de la aplicación
+│   ├── DataSources.js           # Página para listar y gestionar fuentes de datos
+│   ├── ETLProcesses.js          # Página para listar y diseñar procesos ETL
+│   └── Executions.js            # Página para monitorear y ejecutar procesos
+│
+├── services/                    # Servicios para interactuar con la API
+│   ├── dataSourceService.js     # Servicios para CRUD de fuentes de datos
+│   ├── etlProcessService.js     # Servicios para CRUD de procesos ETL
+│   └── transformationService.js # Servicios para CRUD de transformaciones
+│
+├── App.js                       # Componente principal de la aplicación
+├── index.js                     # Punto de entrada de la aplicación
+└── styles/                      # Estilos globales y específicos
+    └── main.css                 # Estilos generales de la aplicación
+    
+```
+## GIT
+- echo "# etlms_fe" >> README.md
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/zeron-team/etlms_fe.git
+- git push -u origin master
+
+
+
+
+
+
+--------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
